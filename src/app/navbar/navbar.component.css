@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo_img {
+  width: 30rem;
+  height: 10rem;
+  object-fit: contain;
+}
+
+.nav_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  height: 12vh;
+}
+
+.logo_text {
+  color: aliceblue;
+}
+
+.header_text {
+  color: rgb(161, 0, 161);
+  font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  color: greenyellow;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: green;
+}
